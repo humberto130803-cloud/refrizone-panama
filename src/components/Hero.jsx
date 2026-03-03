@@ -12,20 +12,7 @@ export default function Hero() {
         background: '#253d8c',
       }}
     >
-      {/* Decorative overlays */}
-      <div className="absolute inset-0">
-        {/* Radial center glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_45%,_rgba(59,130,246,0.15)_0%,_transparent_70%)]" />
-        {/* Frost particles */}
-        <div className="absolute top-20 left-[10%] w-2 h-2 bg-primary/30 rounded-full animate-[float_6s_ease-in-out_infinite]" />
-        <div className="absolute top-40 right-[15%] w-1.5 h-1.5 bg-accent/40 rounded-full animate-[float_8s_ease-in-out_infinite_1s]" />
-        <div className="absolute bottom-40 left-[20%] w-1 h-1 bg-primary/20 rounded-full animate-[float_7s_ease-in-out_infinite_2s]" />
-        <div className="absolute top-1/3 right-[25%] w-2.5 h-2.5 bg-primary/15 rounded-full animate-[float_9s_ease-in-out_infinite_0.5s]" />
-        <div className="absolute bottom-1/3 right-[10%] w-1.5 h-1.5 bg-accent/25 rounded-full animate-[float_5s_ease-in-out_infinite_3s]" />
-        <div className="absolute top-[60%] left-[40%] w-1 h-1 bg-primary/25 rounded-full animate-[float_10s_ease-in-out_infinite_4s]" />
-        {/* Grid overlay */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:60px_60px]" />
-      </div>
+      {/* Decorative overlays — temporarily stripped for iOS debugging */}
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-32 text-center">
         {/* Eyebrow badge */}
