@@ -39,6 +39,7 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+      style={{ paddingTop: 'env(safe-area-inset-top)' }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
           ? 'bg-navy/90 backdrop-blur-xl shadow-lg shadow-black/20 border-b border-white/5'
