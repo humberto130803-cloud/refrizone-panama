@@ -8,12 +8,12 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-dvh flex items-center justify-center overflow-hidden">
       {/* Background — uses CSS gradients only (no blur, renders on all devices) */}
       <div className="absolute inset-0">
-        {/* Base: solid navy-blue fill */}
-        <div className="absolute inset-0 bg-[#111b45]" />
+        {/* Base: matches --color-navy so no seam at section edges */}
+        <div className="absolute inset-0 bg-[#141c4a]" />
         {/* Radial glow from center — pure CSS, no blur needed */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_40%,_rgba(59,130,246,0.18)_0%,_transparent_70%)]" />
-        {/* Top-left cool accent */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_25%_15%,_rgba(96,165,250,0.10)_0%,_transparent_60%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_40%,_rgba(59,130,246,0.20)_0%,_transparent_70%)]" />
+        {/* Top cool accent */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_10%,_rgba(96,165,250,0.12)_0%,_transparent_60%)]" />
         {/* Bottom warm accent */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_30%_85%,_rgba(245,184,0,0.05)_0%,_transparent_60%)]" />
         {/* Frost particles */}
