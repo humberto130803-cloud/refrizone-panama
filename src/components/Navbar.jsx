@@ -74,7 +74,7 @@ export default function Navbar() {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <a
-              href="https://wa.me/50763259964?text=Hola%2C%20me%20gustar%C3%ADa%20información%20sobre%20sus%20servicios"
+              href="https://wa.me/50762911113?text=Hola%2C%20me%20gustar%C3%ADa%20información%20sobre%20sus%20servicios"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-600 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-lg shadow-green-500/25 hover:shadow-green-500/40 hover:scale-105 transition-all duration-300"
@@ -118,7 +118,7 @@ export default function Navbar() {
                 </motion.a>
               ))}
               <a
-                href="https://wa.me/50763259964?text=Hola%2C%20me%20gustar%C3%ADa%20información%20sobre%20sus%20servicios"
+                href="https://wa.me/50762911113?text=Hola%2C%20me%20gustar%C3%ADa%20información%20sobre%20sus%20servicios"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 mt-4 bg-gradient-to-r from-green-500 to-green-600 text-white px-5 py-3 rounded-xl font-semibold"

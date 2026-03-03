@@ -54,7 +54,7 @@ export default function CTASection() {
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <a
-            href="https://wa.me/50763259964?text=Hola%2C%20me%20gustar%C3%ADa%20una%20cotización"
+            href="https://wa.me/50762911113?text=Hola%2C%20me%20gustar%C3%ADa%20una%20cotización"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 bg-gradient-to-r from-green-500 to-green-600 text-white px-8 py-4 rounded-2xl font-bold text-lg shadow-xl shadow-green-500/25 hover:shadow-green-500/40 hover:scale-[1.02] transition-all duration-300"

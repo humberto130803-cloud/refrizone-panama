@@ -81,7 +81,7 @@ export default function Hero() {
           className="flex flex-wrap justify-center gap-4 mb-16"
         >
           <a
-            href="https://wa.me/50763259964?text=Hola%2C%20me%20gustar%C3%ADa%20cotizar%20un%20equipo%20de%20aire%20acondicionado"
+            href="https://wa.me/50762911113?text=Hola%2C%20me%20gustar%C3%ADa%20cotizar%20un%20equipo%20de%20aire%20acondicionado"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative flex items-center gap-3 bg-gradient-to-r from-accent to-accent-dark text-navy px-8 py-4 rounded-2xl font-bold text-lg shadow-xl shadow-accent/25 hover:shadow-accent/40 hover:scale-[1.02] transition-all duration-300"
