@@ -8,10 +8,11 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-dvh flex items-center justify-center overflow-hidden">
       {/* Background gradient layers */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-navy via-navy-light to-navy" />
-        {/* Radial glow — cold blue core */}
-        <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/8 rounded-full blur-[120px]" />
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-accent/5 rounded-full blur-[100px]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0c1235] via-[#111a45] to-[#0c1235]" />
+        {/* Radial glow — cold blue core, large and visible */}
+        <div className="absolute top-[10%] left-1/2 -translate-x-1/2 w-[900px] h-[700px] bg-primary/12 rounded-full blur-[130px]" />
+        <div className="absolute top-0 left-1/3 w-[500px] h-[400px] bg-blue-500/8 rounded-full blur-[120px]" />
+        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-accent/6 rounded-full blur-[100px]" />
         {/* Frost particles */}
         <div className="absolute top-20 left-[10%] w-2 h-2 bg-primary/30 rounded-full animate-[float_6s_ease-in-out_infinite]" />
         <div className="absolute top-40 right-[15%] w-1.5 h-1.5 bg-accent/40 rounded-full animate-[float_8s_ease-in-out_infinite_1s]" />
