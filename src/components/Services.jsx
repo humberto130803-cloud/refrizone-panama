@@ -120,7 +120,7 @@ export default function Services() {
 
               {service.featured && (
                 <a
-                  href="https://wa.me/50765966053?text=Hola%2C%20me%20interesa%20cotizar%20un%20aire%20acondicionado"
+                  href="https://wa.me/50763259964?text=Hola%2C%20me%20interesa%20cotizar%20un%20aire%20acondicionado"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-accent/15 text-accent px-5 py-2.5 rounded-xl text-sm font-semibold hover:bg-accent/25 transition-colors"

@@ -66,7 +66,7 @@ export default function Footer() {
                 <FaInstagram />
               </a>
               <a
-                href="https://wa.me/50765966053"
+                href="https://wa.me/50763259964"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-xl bg-white/5 flex items-center justify-center text-white/40 hover:bg-green-500 hover:text-white transition-all duration-300"
@@ -113,9 +113,9 @@ export default function Footer() {
             <div className="mb-4">
               <p className="text-accent text-xs font-bold uppercase tracking-wider mb-1.5">El Carmen — Sede Principal</p>
               <p className="text-white/30 text-xs mb-1">Telf: 388-8360 · Cel: 6676-6507 / 6725-8551</p>
-              <a href="https://wa.me/50765966053" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors">
+              <a href="https://wa.me/50763259964" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 text-white/40 hover:text-white transition-colors">
                 <FaWhatsapp className="text-green-400 text-xs" />
-                <span className="text-xs">(+507) 6596-6053</span>
+                <span className="text-xs">(+507) 6325-9964</span>
               </a>
             </div>
             {/* 24 de Diciembre */}
