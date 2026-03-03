@@ -9,7 +9,7 @@ export default function Hero() {
       id="inicio"
       className="relative min-h-dvh flex items-center justify-center overflow-hidden"
       style={{
-        background: 'linear-gradient(to bottom, #162550, #1c3068, #1e3575, #1c3068, #162550)',
+        background: '#253d8c',
       }}
     >
       {/* Decorative overlays */}
