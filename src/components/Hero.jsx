@@ -8,13 +8,11 @@ export default function Hero() {
     <section id="inicio" className="relative min-h-dvh flex items-center justify-center overflow-hidden">
       {/* Background — uses CSS gradients only (no blur, renders on all devices) */}
       <div className="absolute inset-0">
-        {/* Base: matches --color-navy so no seam at section edges */}
-        <div className="absolute inset-0 bg-[#141c4a]" />
-        {/* Radial glow from center — pure CSS, no blur needed */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_40%,_rgba(59,130,246,0.20)_0%,_transparent_70%)]" />
-        {/* Top cool accent */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_10%,_rgba(96,165,250,0.12)_0%,_transparent_60%)]" />
-        {/* Bottom warm accent */}
+        {/* Base: rich dark blue — NOT near-black */}
+        <div className="absolute inset-0 bg-[#182454]" />
+        {/* Full-coverage blue wash so no area looks black */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_120%_100%_at_50%_50%,_rgba(59,130,246,0.22)_0%,_rgba(30,60,140,0.10)_60%,_transparent_90%)]" />
+        {/* Warm gold accent at bottom */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_30%_85%,_rgba(245,184,0,0.05)_0%,_transparent_60%)]" />
         {/* Frost particles */}
         <div className="absolute top-20 left-[10%] w-2 h-2 bg-primary/30 rounded-full animate-[float_6s_ease-in-out_infinite]" />
