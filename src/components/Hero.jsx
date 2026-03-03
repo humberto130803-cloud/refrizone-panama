@@ -6,15 +6,16 @@ import { TbSnowflake } from 'react-icons/tb'
 export default function Hero() {
   return (
     <section id="inicio" className="relative min-h-dvh flex items-center justify-center overflow-hidden">
-      {/* Background gradient layers */}
+      {/* Background — uses CSS gradients only (no blur, renders on all devices) */}
       <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#101842] via-[#141f52] to-[#0e1438]" />
-        {/* Large radial glow — covers entire hero */}
-        <div className="absolute -top-[10%] left-1/2 -translate-x-1/2 w-[120%] h-[80%] bg-blue-600/15 rounded-full blur-[120px]" />
-        {/* Center glow behind content */}
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/20 rounded-full blur-[150px]" />
-        {/* Bottom accent glow */}
-        <div className="absolute bottom-0 left-1/4 w-[400px] h-[400px] bg-accent/5 rounded-full blur-[100px]" />
+        {/* Base: solid navy-blue fill */}
+        <div className="absolute inset-0 bg-[#111b45]" />
+        {/* Radial glow from center — pure CSS, no blur needed */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_40%,_rgba(59,130,246,0.18)_0%,_transparent_70%)]" />
+        {/* Top-left cool accent */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_50%_at_25%_15%,_rgba(96,165,250,0.10)_0%,_transparent_60%)]" />
+        {/* Bottom warm accent */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_30%_85%,_rgba(245,184,0,0.05)_0%,_transparent_60%)]" />
         {/* Frost particles */}
         <div className="absolute top-20 left-[10%] w-2 h-2 bg-primary/30 rounded-full animate-[float_6s_ease-in-out_infinite]" />
         <div className="absolute top-40 right-[15%] w-1.5 h-1.5 bg-accent/40 rounded-full animate-[float_8s_ease-in-out_infinite_1s]" />
