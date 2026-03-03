@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1233"/>
+      <stop offset="100%" stop-color="#0a0e27"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5b800"/>
+      <stop offset="100%" stop-color="#d4a017"/>
+    </linearGradient>
+    <linearGradient id="iceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background rounded square -->
+  <rect width="120" height="120" rx="26" fill="url(#bgGrad)"/>
+
+  <!-- Subtle border -->
+  <rect x="1.5" y="1.5" width="117" height="117" rx="24.5" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="1.5"/>
+
+  <!-- Snowflake behind the R — 6-spoke crystal -->
+  <g transform="translate(60,42)" opacity="0.35">
+    <!-- Main spokes -->
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-15.6" y1="-9" x2="15.6" y2="9" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+    <line x1="-15.6" y1="9" x2="15.6" y2="-9" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+    <!-- Branch tips -->
+    <line x1="0" y1="-18" x2="-4" y2="-13" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="0" y1="-18" x2="4" y2="-13" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="0" y1="18" x2="-4" y2="13" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="0" y1="18" x2="4" y2="13" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- Center dot -->
+    <circle r="3" fill="#3b82f6" opacity="0.5"/>
+  </g>
+
+  <!-- Bold R letter -->
+  <text x="60" y="78" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="62" fill="url(#goldGrad)">R</text>
+
+  <!-- Frost accent dot top-right -->
+  <circle cx="88" cy="28" r="4" fill="url(#iceGrad)" opacity="0.7"/>
+  <circle cx="96" cy="22" r="2" fill="#60a5fa" opacity="0.4"/>
+
+  <!-- ZONE underline bar -->
+  <rect x="30" y="90" width="60" height="3.5" rx="1.75" fill="url(#goldGrad)" opacity="0.6"/>
+</svg>

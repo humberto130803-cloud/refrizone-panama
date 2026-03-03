@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 80">
+  <defs>
+    <linearGradient id="fGoldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5b800"/>
+      <stop offset="100%" stop-color="#d4a017"/>
+    </linearGradient>
+    <linearGradient id="fIceGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="fBgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1233"/>
+      <stop offset="100%" stop-color="#0a0e27"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon mark background -->
+  <rect x="0" y="4" width="72" height="72" rx="18" fill="url(#fBgGrad)"/>
+  <rect x="1" y="5" width="70" height="70" rx="17" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+
+  <!-- Snowflake behind R -->
+  <g transform="translate(36,30)" opacity="0.3">
+    <line x1="0" y1="-12" x2="0" y2="12" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-10.4" y1="-6" x2="10.4" y2="6" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="-10.4" y1="6" x2="10.4" y2="-6" stroke="#3b82f6" stroke-width="1.5" stroke-linecap="round"/>
+    <circle r="2" fill="#3b82f6" opacity="0.5"/>
+  </g>
+
+  <!-- R letter in mark -->
+  <text x="36" y="55" text-anchor="middle" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="40" fill="url(#fGoldGrad)">R</text>
+
+  <!-- Frost dot -->
+  <circle cx="55" cy="17" r="2.5" fill="url(#fIceGrad)" opacity="0.6"/>
+
+  <!-- Gold underline in mark -->
+  <rect x="16" y="62" width="40" height="2.5" rx="1.25" fill="url(#fGoldGrad)" opacity="0.5"/>
+
+  <!-- REFRI-ZONE text -->
+  <text x="88" y="38" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="28" letter-spacing="1" fill="white">
+    <tspan fill="white">REFRI</tspan><tspan fill="white" opacity="0.4">-</tspan><tspan fill="url(#fGoldGrad)">ZONE</tspan>
+  </text>
+
+  <!-- Snowflake in the O — small accent -->
+  <g transform="translate(273,28)" opacity="0.6">
+    <line x1="0" y1="-4" x2="0" y2="4" stroke="#3b82f6" stroke-width="1" stroke-linecap="round"/>
+    <line x1="-3.5" y1="-2" x2="3.5" y2="2" stroke="#3b82f6" stroke-width="1" stroke-linecap="round"/>
+    <line x1="-3.5" y1="2" x2="3.5" y2="-2" stroke="#3b82f6" stroke-width="1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tagline -->
+  <text x="88" y="56" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="10.5" letter-spacing="2" fill="white" opacity="0.35">REPUESTOS Y AIRES ACONDICIONADOS</text>
+
+  <!-- Gold accent line under tagline -->
+  <rect x="88" y="63" width="45" height="2" rx="1" fill="url(#fGoldGrad)" opacity="0.4"/>
+</svg>
