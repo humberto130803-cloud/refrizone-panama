@@ -7,9 +7,10 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="relative min-h-dvh flex items-center justify-center overflow-hidden"
+      className="relative min-h-dvh flex items-center justify-center overflow-hidden isolate"
       style={{
         background: '#253d8c',
+        WebkitTransform: 'translateZ(0)',
       }}
     >
       {/* Decorative overlays — temporarily stripped for iOS debugging */}
