@@ -5,15 +5,17 @@ import { TbSnowflake } from 'react-icons/tb'
 
 export default function Hero() {
   return (
-    <section id="inicio" className="relative min-h-dvh flex items-center justify-center overflow-hidden">
-      {/* Background — uses CSS gradients only (no blur, renders on all devices) */}
+    <section
+      id="inicio"
+      className="relative min-h-dvh flex items-center justify-center overflow-hidden"
+      style={{
+        background: 'linear-gradient(to bottom, #162550, #1c3068, #1e3575, #1c3068, #162550)',
+      }}
+    >
+      {/* Decorative overlays */}
       <div className="absolute inset-0">
-        {/* Base: rich dark blue — NOT near-black */}
-        <div className="absolute inset-0 bg-[#182454]" />
-        {/* Full-coverage blue wash so no area looks black */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_120%_100%_at_50%_50%,_rgba(59,130,246,0.22)_0%,_rgba(30,60,140,0.10)_60%,_transparent_90%)]" />
-        {/* Warm gold accent at bottom */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_50%_40%_at_30%_85%,_rgba(245,184,0,0.05)_0%,_transparent_60%)]" />
+        {/* Radial center glow */}
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_45%,_rgba(59,130,246,0.15)_0%,_transparent_70%)]" />
         {/* Frost particles */}
         <div className="absolute top-20 left-[10%] w-2 h-2 bg-primary/30 rounded-full animate-[float_6s_ease-in-out_infinite]" />
         <div className="absolute top-40 right-[15%] w-1.5 h-1.5 bg-accent/40 rounded-full animate-[float_8s_ease-in-out_infinite_1s]" />
